@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemDetailsActivity"
+    android:background="@color/white">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:backgroundTint="@color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/back_arrow"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/baseline_arrow_back_24"/>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/back_arrow"
+                android:src="@drawable/grow"/>
+
+            <ImageView
+                android:id="@+id/searchItem"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_toLeftOf="@id/viewCart"
+                android:layout_marginRight="20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_search"/>
+
+            <ImageView
+                android:id="@+id/viewCart"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/ic_add_to_cart2"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/single_itm_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/cardView"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/single_itm_headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/single_itm_image"
+        android:layout_marginLeft="15dp"
+        android:text="Philodendron"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/rs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs."
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/darkgreen"
+        android:layout_below="@id/single_itm_headline"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="13dp"/>
+
+    <TextView
+        android:id="@+id/single_itm_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/single_itm_headline"
+        android:layout_toRightOf="@id/rs"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="199"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/darkgreen"/>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/single_itm_price"
+        android:layout_marginTop="15dp"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/single_itm_brand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view1"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="12dp"
+        android:text="Age :- 48 weeks"
+        android:textColor="#00000000"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/single_itm_brand"
+        android:layout_marginTop="8dp"
+        android:background="#00000000"/>
+
+    <TextView
+        android:id="@+id/single_itm_description"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view1"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Description :- Philodendron plants are popular choices for both indoor and outdoor"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/single_itm_description"
+        android:layout_marginTop="8dp"
+        android:background="@color/black"/>
+
+    <Button
+        android:id="@+id/addToCart"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#fec107"
+        android:text="Add to Cart"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_add_to_cart"
+        android:fontFamily="@font/josefinsanssemibold"/>
+
+</RelativeLayout>

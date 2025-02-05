@@ -1,0 +1,163 @@
+{
+  "project_info": {
+    "project_number": "812930826976",
+    "firebase_url": "https://growbuddy-312a8-default-rtdb.firebaseio.com",
+    "project_id": "growbuddy-312a8",
+    "storage_bucket": "growbuddy-312a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812930826976:android:29bc65d67eed301d3fc685",
+        "android_client_info": {
+          "package_name": "com.cpp.recyclerview"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ9ZNusf0ZgXN6LXggBInXIHVbv16eez0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812930826976:android:13b244f1309195ce3fc685",
+        "android_client_info": {
+          "package_name": "com.cpp.transtest1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ9ZNusf0ZgXN6LXggBInXIHVbv16eez0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812930826976:android:8f9523986800b8f43fc685",
+        "android_client_info": {
+          "package_name": "com.example.appuser"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ9ZNusf0ZgXN6LXggBInXIHVbv16eez0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812930826976:android:e451c404e5616e573fc685",
+        "android_client_info": {
+          "package_name": "com.example.growbuddy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ9ZNusf0ZgXN6LXggBInXIHVbv16eez0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812930826976:android:0a5b6d15fe45effa3fc685",
+        "android_client_info": {
+          "package_name": "com.example.reminder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ9ZNusf0ZgXN6LXggBInXIHVbv16eez0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812930826976:android:e9ef51def2dfe9f13fc685",
+        "android_client_info": {
+          "package_name": "com.mohitladhe.growbuddy1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ9ZNusf0ZgXN6LXggBInXIHVbv16eez0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812930826976:android:d6b53a75f10f1aa93fc685",
+        "android_client_info": {
+          "package_name": "com.mohitladhe.notification20"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ9ZNusf0ZgXN6LXggBInXIHVbv16eez0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812930826976:android:7fb347a82c3a9ee63fc685",
+        "android_client_info": {
+          "package_name": "com.namah.mediainputand13"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ9ZNusf0ZgXN6LXggBInXIHVbv16eez0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
